@@ -20,10 +20,26 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "cyrdujvxyznrihraqmol"
+      },
+      "EXPO_PUBLIC_SUPABASE_URL": "https://cyrdujvxyznrihraqmol.supabase.co",
+      "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN5cmR1anZ4eXpucmlocmFxbW9sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcwMjYwODcsImV4cCI6MjA3MjYwMjA4N30.k7HAN6Xu3A_PbgRlYRxqYQeG3ZGCEMJWJ-MQsbyK2xg",
+      "EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY": "pk_test_REPLACE"
     }
   }
 }
